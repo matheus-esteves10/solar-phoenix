@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D9C0416D-1BCE-6C41-65B7-1A79D8C70573" name="T_SPH_COMPRA">
+<createdBy>User</createdBy>
+<createdTime>2024-11-13 22:14:00 UTC</createdTime>
+<generatorID>79A04F87-983E-25C5-B8B7-ED26750C16A8</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_compra" id="A7AA6AD6-2B41-3002-EEBF-37D19578FBA5">
+<createdBy>User</createdBy>
+<createdTime>2024-11-13 22:14:00 UTC</createdTime>
+<generatorID>EEEB4C88-4A1B-0E2E-11FA-E974A49756F0</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_item" id="0116DDE7-D582-83D4-5D46-9C8ADF866F00">
+<createdBy>User</createdBy>
+<createdTime>2024-11-13 22:14:00 UTC</createdTime>
+<generatorID>6A5CD2DE-9CC5-6C7B-486F-068D7D902689</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_compra" id="25810FB7-0D6C-B1AA-5ACF-E0A8B5750456">
+<createdBy>User</createdBy>
+<createdTime>2024-11-13 22:14:00 UTC</createdTime>
+<generatorID>8C3E2ED3-8046-108F-3BED-C49B62DD0F1A</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidade" id="C9F17816-3207-4AE2-6F48-4981FA0BAF4C">
+<createdBy>User</createdBy>
+<createdTime>2024-11-13 22:14:00 UTC</createdTime>
+<generatorID>406E48F0-E709-CDC0-8B80-D68A56C80EC6</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="is_pago" id="DE160BCF-CFE4-F56B-073A-8296B5180934">
+<createdBy>User</createdBy>
+<createdTime>2024-11-13 22:14:00 UTC</createdTime>
+<generatorID>95B1726E-0946-4E96-B3DC-BFCF2FC9D0BA</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SPH_USUARIO_id_usuario" id="3B13D4F2-C6A2-B6C8-344D-4C1F73011E10">
+<createdBy>User</createdBy>
+<createdTime>2024-11-13 22:14:00 UTC</createdTime>
+<generatorID>69607DA7-A4E6-DDC9-4889-65E43B5AF4EF</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC05C6A1-1777-D20C-28D3-EBCAA4AB01E5" referredColumn="B2C99FBC-D5DA-C958-5569-FC24DFEA7610"/>
+</associations>
+</Column>
+<Column name="T_SPH_PRODUTOS_id_produto" id="2E8BF7F6-AB72-E290-A6BB-E653B9E9265E">
+<createdBy>User</createdBy>
+<createdTime>2024-11-13 22:14:00 UTC</createdTime>
+<generatorID>2CD27B26-1B26-7723-7DDD-D60414562677</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5ABE8AF7-AAA8-8038-1C09-445781FA7F9A" referredColumn="51A861EC-71BF-4B6F-BF1C-4AB901500F17"/>
+</associations>
+</Column>
+<Column name="quant_parcelas" id="B1D78B3B-A886-195F-F655-7C8B0DEC0F82">
+<createdBy>User</createdBy>
+<createdTime>2024-11-20 18:48:09 UTC</createdTime>
+<generatorID>4692D324-03F5-242D-E3E5-92E278B5A49D</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_compra" id="74A0EA7B-200D-CA20-5B7A-F5B14EA9B297">
+<createdBy>User</createdBy>
+<createdTime>2024-11-20 18:48:09 UTC</createdTime>
+<generatorID>00EA4530-2408-7B8A-4B94-BE905FE281DB</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="912105D9-B7A3-E566-7D02-E483A629246B" name="T_SPH_COMPRA_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-11-13 22:14:00 UTC</createdTime>
+<generatorID>24F4A47B-DFB9-CC7E-367F-102604786B9C</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7AA6AD6-2B41-3002-EEBF-37D19578FBA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="670331C4-513E-3666-1DC6-34E94A6FF15E" name="T_SPH_COMPRA_T_SPH_PRODUTOS_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-11-13 22:14:00 UTC</createdTime>
+<generatorID>DFAF696F-78D4-D318-3346-B7114B260011</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E8BF7F6-AB72-E290-A6BB-E653B9E9265E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A6CF907-FDE9-D53A-0F7E-142C45653D53" name="T_SPH_COMPRA_T_SPH_USUARIO_FK">
+<createdBy>User</createdBy>
+<createdTime>2024-11-13 22:14:00 UTC</createdTime>
+<generatorID>A6EEF512-42D1-A01F-F7DE-E3B410A22F01</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B13D4F2-C6A2-B6C8-344D-4C1F73011E10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

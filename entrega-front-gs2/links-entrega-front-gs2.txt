@@ -1,0 +1,8 @@
+Link do repositório:
+https://github.com/gabrielfalanga/frontend-gs2.git
+
+Link do vídeo:
+https://youtu.be/QJo19zgadXk
+
+Link do deploy:
+https://solar-phoenix.vercel.app/

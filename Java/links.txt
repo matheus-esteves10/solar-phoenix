@@ -1,0 +1,5 @@
+Video PITCH: https://www.youtube.com/watch?v=40IQ3ckNCTc
+
+Video solução Java: https://www.youtube.com/watch?v=K1d5swRtQ_w
+
+Repositório no github: https://github.com/matheus-esteves10/gs-java-2sem

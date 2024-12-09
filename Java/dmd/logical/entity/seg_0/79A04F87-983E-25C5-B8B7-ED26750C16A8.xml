@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="79A04F87-983E-25C5-B8B7-ED26750C16A8" name="T_SPH_COMPRA">
+<createdBy>User</createdBy>
+<createdTime>2024-11-13 12:58:44 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="AC2D89B7-957D-DC08-19A6-4BABEFB5E269" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_compra" id="EEEB4C88-4A1B-0E2E-11FA-E974A49756F0">
+<createdBy>User</createdBy>
+<createdTime>2024-11-13 13:00:03 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="AC2D89B7-957D-DC08-19A6-4BABEFB5E269" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_compra" id="8C3E2ED3-8046-108F-3BED-C49B62DD0F1A">
+<createdBy>User</createdBy>
+<createdTime>2024-11-13 13:00:41 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="AC2D89B7-957D-DC08-19A6-4BABEFB5E269" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="is_pago" id="95B1726E-0946-4E96-B3DC-BFCF2FC9D0BA">
+<createdBy>User</createdBy>
+<createdTime>2024-11-13 13:01:40 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="AC2D89B7-957D-DC08-19A6-4BABEFB5E269" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="69607DA7-A4E6-DDC9-4889-65E43B5AF4EF">
+<createdBy>User</createdBy>
+<createdTime>2024-11-13 13:10:27 UTC</createdTime>
+<generatorID>A6EEF512-42D1-A01F-F7DE-E3B410A22F01</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="AC2D89B7-957D-DC08-19A6-4BABEFB5E269" value="true"/>
+</engineerTo>
+<referedAttribute>C6D817A2-8FBB-11AE-8C8D-DCC887C8FF40</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quant_parcelas" id="4692D324-03F5-242D-E3E5-92E278B5A49D">
+<createdBy>User</createdBy>
+<createdTime>2024-11-14 01:20:35 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="AC2D89B7-957D-DC08-19A6-4BABEFB5E269" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_compra" id="00EA4530-2408-7B8A-4B94-BE905FE281DB">
+<createdBy>User</createdBy>
+<createdTime>2024-11-20 18:47:35 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="AC2D89B7-957D-DC08-19A6-4BABEFB5E269" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="24F4A47B-DFB9-CC7E-367F-102604786B9C" name="T_SPH_CARRINHO PK">
+<createdBy>User</createdBy>
+<createdTime>2024-11-13 13:00:14 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="AC2D89B7-957D-DC08-19A6-4BABEFB5E269" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EEEB4C88-4A1B-0E2E-11FA-E974A49756F0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

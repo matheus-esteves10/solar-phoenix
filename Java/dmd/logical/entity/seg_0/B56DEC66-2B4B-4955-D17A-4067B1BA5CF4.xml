@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B56DEC66-2B4B-4955-D17A-4067B1BA5CF4" name="T_SPH_COMPRA_PRODUTO">
+<createdBy>User</createdBy>
+<createdTime>2024-11-13 22:26:29 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="AC2D89B7-957D-DC08-19A6-4BABEFB5E269" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_compra" id="0FFB40BD-C076-B29D-7F12-90FB7F1B86AC">
+<createdBy>User</createdBy>
+<createdTime>2024-11-16 20:07:46 UTC</createdTime>
+<generatorID>28949E98-DBC1-C459-B3B7-4DEE93682BAB</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="AC2D89B7-957D-DC08-19A6-4BABEFB5E269" value="true"/>
+</engineerTo>
+<referedAttribute>EEEB4C88-4A1B-0E2E-11FA-E974A49756F0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_produto" id="2B363C2D-ACE5-6098-3729-D4BB026499AB">
+<createdBy>User</createdBy>
+<createdTime>2024-11-13 22:28:02 UTC</createdTime>
+<generatorID>F827ED02-BAE4-DA36-6530-30B993D27A73</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="AC2D89B7-957D-DC08-19A6-4BABEFB5E269" value="true"/>
+</engineerTo>
+<referedAttribute>3C22E0C3-73DE-02CA-3275-24B1BC440BE8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantidade" id="7824A2BB-8AE7-DB94-8E10-31209B05F718">
+<createdBy>User</createdBy>
+<createdTime>2024-11-13 22:27:13 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="AC2D89B7-957D-DC08-19A6-4BABEFB5E269" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="34C07E0F-D15E-4214-976D-B4CB093E63D6" name="T_SPH_COMPRA_PRODUTO PK">
+<createdBy>User</createdBy>
+<createdTime>2024-11-13 22:27:12 UTC</createdTime>
+<ownerDesignName>dmd</ownerDesignName>
+<engineerTo>
+<item key="AC2D89B7-957D-DC08-19A6-4BABEFB5E269" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0FFB40BD-C076-B29D-7F12-90FB7F1B86AC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

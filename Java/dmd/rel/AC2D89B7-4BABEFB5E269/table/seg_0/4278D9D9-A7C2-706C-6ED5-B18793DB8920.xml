@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4278D9D9-A7C2-706C-6ED5-B18793DB8920" name="T_SPH_PRODUTOS">
+<createdBy>User</createdBy>
+<createdTime>2024-11-13 22:14:00 UTC</createdTime>
+<generatorID>D7934E81-3BD8-5DAF-C510-28AA568EA091</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_produto" id="51A861EC-71BF-4B6F-BF1C-4AB901500F17">
+<createdBy>User</createdBy>
+<createdTime>2024-11-13 22:14:00 UTC</createdTime>
+<generatorID>3C22E0C3-73DE-02CA-3275-24B1BC440BE8</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_produto" id="22072A7B-0E36-2CFC-FE78-F0AB9D134846">
+<createdBy>User</createdBy>
+<createdTime>2024-11-13 22:14:00 UTC</createdTime>
+<generatorID>7B38B36A-8254-6F8C-1022-7F9ADEC35602</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_produto" id="536F01CF-9D6A-84B5-3088-B5ECEAC3198F">
+<createdBy>User</createdBy>
+<createdTime>2024-11-13 22:14:00 UTC</createdTime>
+<generatorID>5441D443-2D15-F333-AD3B-D7043CB4F246</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imagem_produto" id="F920C237-1C57-A87A-1934-65A852E0CCBE">
+<createdBy>User</createdBy>
+<createdTime>2024-11-13 22:14:00 UTC</createdTime>
+<generatorID>BAC221EF-5279-B050-9ED1-26F1E6C72291</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_produto" id="F36B6B8B-69F4-2B42-8E8D-D64F8DD09858">
+<createdBy>User</createdBy>
+<createdTime>2024-11-13 22:14:00 UTC</createdTime>
+<generatorID>158720D7-2C96-E584-4887-45C7F36B1C23</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="eficiencia_produto" id="0FAA2C31-C6D2-262C-CE7A-A827ED1D4B98">
+<createdBy>User</createdBy>
+<createdTime>2024-11-20 18:48:09 UTC</createdTime>
+<generatorID>C6EDB8B4-6AE3-8215-B3A0-0424AA1F5FFF</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="potencia_produto" id="DA6F2BF8-C551-8999-2B17-DCB2D7ED106E">
+<createdBy>User</createdBy>
+<createdTime>2024-11-20 18:48:09 UTC</createdTime>
+<generatorID>D6C44E0F-3A87-68C7-9BAA-A88599F87498</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B4C13931-18DA-D8FF-A186-4736E73ED690" name="T_SPH_PRODUTOS_PK">
+<createdBy>User</createdBy>
+<createdTime>2024-11-13 22:14:00 UTC</createdTime>
+<generatorID>F610FC29-9562-99F8-E034-A5BE4C79AAB4</generatorID>
+<ownerDesignName>dmd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51A861EC-71BF-4B6F-BF1C-4AB901500F17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
